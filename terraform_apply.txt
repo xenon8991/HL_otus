@@ -1,0 +1,22 @@
+yandex_vpc_network.network1: Creating...
+yandex_vpc_network.network1: Creation complete after 2s [id=enp34eb6m3c2h54an114]
+yandex_vpc_subnet.hl-subnet-1: Creating...
+yandex_vpc_subnet.hl-subnet-1: Creation complete after 1s [id=e9bnk8vlsc5vvsqk81oh]
+yandex_compute_instance.HL-1: Creating...
+yandex_compute_instance.HL-1: Still creating... [10s elapsed]
+yandex_compute_instance.HL-1: Still creating... [20s elapsed]
+yandex_compute_instance.HL-1: Still creating... [30s elapsed]
+yandex_compute_instance.HL-1: Still creating... [40s elapsed]
+yandex_compute_instance.HL-1: Still creating... [50s elapsed]
+yandex_compute_instance.HL-1: Still creating... [1m0s elapsed]
+yandex_compute_instance.HL-1: Still creating... [1m10s elapsed]
+yandex_compute_instance.HL-1: Still creating... [1m20s elapsed]
+yandex_compute_instance.HL-1: Still creating... [1m30s elapsed]
+yandex_compute_instance.HL-1: Creation complete after 1m32s [id=fhme3ffl3pnvfgf45qrc]
+
+Apply complete! Resources: 3 added, 0 changed, 0 destroyed.
+
+Outputs:
+
+external_ip_address_HL-1 = "51.250.73.5"
+internal_ip_address_HL-1 = "192.168.100.18"
