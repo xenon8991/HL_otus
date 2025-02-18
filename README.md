@@ -1,10 +1,10 @@
-# ход выполнения домашнего задания №1
+# Ход выполнения домашнего задания №1
 ## Окружение
-Рабочая станиция - Windows
+Рабочая станиция - Windows 10
 Terraform - ver 1.9.8  
 ## Подготовка рабочей машины
 - Регистрация в YC, создание сервис-аккаунта 
-- Установлен Terraform для Windows() 
+- Установлен Terraform для Windows 
 - Внесены изменения в `terraform.rc` для подмены адреса `registry.terraform.io` на `terraform-mirror.yandexcloud.net`
 - Созданы файлы `main.tf` и `variables.tf`
 ## Создание скрипта terraform main.tf
@@ -113,3 +113,8 @@ variable "zone" {
 - Результат выполенение terraform init в terrafrom_init.txt
 - Результат выполенения terraform plan в terraform_plan.txt
 - Результат выполенения terraform apply в terraform_apply.txt
+- Создана ВМ 
+![image](https://github.com/user-attachments/assets/62449811-1b27-42db-83bc-c00a0dabacc7)
+- Осуществлено подключение к машине по ssh
+![image](https://github.com/user-attachments/assets/c82f5d39-05b2-4597-8b8a-cd169bb3cc8a)
+
